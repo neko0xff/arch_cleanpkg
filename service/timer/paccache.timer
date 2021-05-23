@@ -1,0 +1,9 @@
+[Unit]
+Description = clearing pacman cache in timer
+
+[Timer]
+OnCalendar = week
+Persistent = true
+
+[Install]
+WantedBy = multi-user.target
